@@ -1,0 +1,67 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Angkor", serif;
+}
+.acerca-imagen{
+    background-color: darkgray;
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    padding: 2em;
+}
+.seccion-2{
+    width: 100%;
+}
+footer{
+    background-color: black;
+    width: 100%;
+    padding: 1em;
+}
+
+h3{
+    color: ghostwhite;
+    display: block;
+    font-size: 1.17em;
+    margin-block-start:1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+
+}
+#footer nav ul li a{
+    color: aliceblue;
+    
+}
+
+
+ol, 
+ul {
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+header{
+    display:flex;
+    background-color:black;
+    align-items:center;
+    justify-content:space-between;
+}
+header a i{
+    color:white;
+    font-size:  3em;
+    padding: 0.5em;
+}
+header nav ul{
+    display:flex;
+    gap: 1.1em;
+    
+}
+header nav ul li a{
+    color: white
+}
+
